@@ -6,13 +6,10 @@
   <body style="margin: 0px; overflow: hidden">
     <a-scene embedded arjs>
       <a-marker preset="hiro">
-        <a-assets>
-          <a-asset-item id="tree" src="./assets/magnemite/scene.gltf"></a-asset-item>
-        </a-assets>
         <a-entity
           position="0 0 0"
-          scale="0.05 0.05 0.05"
-          gltf-model="#tree"
+          scale="0.5 0.5 0.5"
+          gltf-model="url(./assets/magnemite/scene.gltf)"
         ></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
