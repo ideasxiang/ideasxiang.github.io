@@ -1,1 +1,0 @@
-1. What if machine learning was train mainly on negative data ( data that is not the subject of interest and labelled as such )? I think I learn better what not to do as compared to learning what to do.
