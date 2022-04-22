@@ -21,19 +21,19 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/magnemite/scene.gltf',
-        scale: '1 1 1',
+        scale: '4 4 4',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
     {
         url: './assets/articuno/scene.gltf',
-        scale: '1 1 1',
+        scale: '4 4 4',
         rotation: '0 180 0',
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
         url: './assets/dragonite/scene.gltf',
-        scale: '1 1 1',
+        scale: '4 4 4',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
     },
@@ -67,14 +67,13 @@ function renderPlaces(places) {
         let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-camera');
 
         setModel(models[modelIndex], model);
 
         model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
-            var entity = document.querySelector('[gps-camera]');
+            var entity = document.querySelector('[gltf-model]');
             modelIndex++;
             var newIndex = modelIndex % models.length;
             setModel(models[newIndex], entity);
