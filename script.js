@@ -15,6 +15,20 @@ function staticLoadPlaces() {
                 lng: 103.9956382,
             },
         },
+        {
+            name: 'Pokèmon',
+            location: {
+                lat: 1.3537774,
+                lng: 103.9956382,
+            },
+        },
+        {
+            name: 'Pokèmon',
+            location: {
+                lat: 1.3537774,
+                lng: 103.9956382,
+            },
+        },
     ];
 }
 
@@ -70,6 +84,7 @@ function renderPlaces(places) {
 
         setModel(models[modelIndex], model);
 
+        model.setAttribute('preset', 'hiro');
         model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
