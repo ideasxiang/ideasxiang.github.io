@@ -74,17 +74,13 @@ var setModel = function (model, entity) {
 };
 
 function renderPlaces(places) {
-    let scene = document.querySelector('a-scene');
+    let scene = document.querySelector('a-marker');
 
     places.forEach((place) => {
-        let latitude = place.location.lat;
-        let longitude = place.location.lng;
-
         let model = document.createElement('a-entity');
 
         setModel(models[modelIndex], model);
 
-        model.setAttribute('preset', 'hiro');
         model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
