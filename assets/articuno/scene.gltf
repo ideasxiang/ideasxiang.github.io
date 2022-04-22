@@ -3,54 +3,125 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 11694,
+      "count": 20232,
       "max": [
-        11.892386436462402,
-        0.4937896728515625,
-        17.496257781982422
+        10.826980590820313,
+        13.809623718261719,
+        8.36639404296875
       ],
       "min": [
-        -14.593596458435059,
-        -15.901927947998047,
-        -13.846839904785156
+        -15.111921310424805,
+        -15.01171875,
+        0.03066253662109375
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 140328,
+      "byteOffset": 242784,
       "componentType": 5126,
-      "count": 11694,
+      "count": 20232,
       "max": [
-        0.9998894333839417,
-        0.9999998807907104,
-        0.9994438290596008
+        0.9999182224273682,
+        0.9997886419296265,
+        0.9998411536216736
       ],
       "min": [
-        -0.9987468719482422,
-        -0.9999512434005737,
-        -0.9999900460243225
+        -0.9983437657356262,
+        -0.9999446868896484,
+        -0.9999544620513916
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 11694,
+      "count": 20232,
       "max": [
-        0.9997504353523254,
-        0.9997557401657104
+        0.999740719795227,
+        0.9919432401657104
       ],
       "min": [
         0.000244140625,
-        0.00026651157531887293
+        0.000248212949372828
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 29862,
+      "count": 20232,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 485568,
+      "componentType": 5126,
+      "count": 2962,
+      "max": [
+        0.06979800015687943,
+        0.007342000026255846,
+        0.06979700177907944
+      ],
+      "min": [
+        -0.06971199810504913,
+        -0.0077840001322329044,
+        -0.06971099972724915
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 521112,
+      "componentType": 5126,
+      "count": 2962,
+      "max": [
+        0.8526942729949951,
+        0.9999904632568359,
+        0.8525677919387817
+      ],
+      "min": [
+        -0.8532220721244812,
+        -0.9999904036521912,
+        -0.8531932234764099
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 161856,
+      "componentType": 5126,
+      "count": 2962,
+      "max": [
+        0.9144819974899292,
+        0.9428079724311829
+      ],
+      "min": [
+        0.001825000043027103,
+        0.0019920000340789557
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 185552,
+      "componentType": 5126,
+      "count": 2962,
+      "max": [
+        0.9144819974899292,
+        0.9428079724311829
+      ],
+      "min": [
+        0.001825000043027103,
+        0.0019920000340789557
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 80928,
+      "componentType": 5125,
+      "count": 17280,
       "type": "SCALAR"
     }
   ],
@@ -58,31 +129,31 @@
     "extras": {
       "author": "LifeUp SG (https://sketchfab.com/lifeup)",
       "license": "COPYRIGHT TO LifeUp SG",
-      "source": "https://sketchfab.com/3d-models/mentaiko-prawn-twice-baked-brotherbird-8e2f5d1530f2427194551c37da842183",
-      "title": "Mentaiko Prawn Twice-Baked Brotherbird"
+      "source": "https://sketchfab.com/3d-models/jasmine-pearls-tea-chapter-2020fbf2c4ed4719b8adc9d899e5ed18",
+      "title": "Jasmine Pearls Tea Chapter 茉莉花"
     },
-    "generator": "Sketchfab-12.97.0",
+    "generator": "Sketchfab-13.1.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 119448,
+      "byteLength": 150048,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 93552,
-      "byteOffset": 119448,
+      "byteLength": 209248,
+      "byteOffset": 150048,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 280656,
-      "byteOffset": 213000,
+      "byteLength": 556656,
+      "byteOffset": 359296,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -90,7 +161,7 @@
   ],
   "buffers": [
     {
-      "byteLength": 493656,
+      "byteLength": 915952,
       "uri": "scene.bin"
     }
   ],
@@ -99,7 +170,10 @@
   ],
   "images": [
     {
-      "uri": "textures/mentaiko_u1_v1_baseColor.png"
+      "uri": "textures/JasmineTea_u1_v1_baseColor.png"
+    },
+    {
+      "uri": "textures/initialShadingGroup_baseColor.png"
     }
   ],
   "materials": [
@@ -108,10 +182,23 @@
       "extensions": {
         "KHR_materials_unlit": {}
       },
-      "name": "mentaiko_u1_v1",
+      "name": "JasmineTea_u1_v1",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "initialShadingGroup",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
         },
         "metallicFactor": 0.0
       }
@@ -119,7 +206,7 @@
   ],
   "meshes": [
     {
-      "name": "Object_0",
+      "name": "JasmineTea.002_JasmineTea_u1_v1_0",
       "primitives": [
         {
           "attributes": {
@@ -132,6 +219,22 @@
           "mode": 4
         }
       ]
+    },
+    {
+      "name": "smallTeaPlate_v01_initialShadingGroup_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6,
+            "TEXCOORD_1": 7
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
     }
   ],
   "nodes": [
@@ -140,17 +243,17 @@
         1
       ],
       "matrix": [
-        2.511896807049759e-18,
-        -8.97106002517771e-19,
-        0.0032321650069206953,
+        0.013757452368736267,
         0.0,
-        -2.4304962977228946e-07,
-        -0.0032321650069206953,
-        -1.0765272030213253e-18,
         0.0,
-        0.0032321650069206953,
-        -2.4304962977228946e-07,
-        -2.332529574405225e-18,
+        0.0,
+        0.0,
+        3.0547680759909806e-18,
+        -0.013757452368736267,
+        0.0,
+        0.0,
+        0.013757452368736267,
+        3.0547680759909806e-18,
         0.0,
         0.0,
         0.0,
@@ -163,11 +266,88 @@
       "children": [
         2
       ],
-      "name": "mentaiko.obj.cleaner.materialmerger.gles"
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "04fe81f9596c4a4da231d5943e240479.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        20.806705474853516,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3059544361357569,
+        -20.804455883303177,
+        0.0,
+        0.0,
+        20.804455883303177,
+        0.3059544361357569,
+        0.0,
+        32.66161346435547,
+        17.930068969726563,
+        -14.969907760620117,
+        1.0
+      ],
+      "name": "JasmineTea.002"
     },
     {
       "mesh": 0,
-      "name": "Object_2"
+      "name": "JasmineTea.002_JasmineTea_u1_v1_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        5336.480468749941,
+        0.0008057861327489066,
+        -3.3859194746195486e-18,
+        -0.0,
+        -0.0008057861327488958,
+        5336.48046874987,
+        -0.0008694230531534028,
+        -0.0,
+        1.3127922527905987e-10,
+        -0.000869423053153393,
+        -5336.480468749929,
+        -0.0,
+        0.0,
+        22.979333877563477,
+        0.0,
+        1.0
+      ],
+      "name": "smallTeaPlate_v01"
+    },
+    {
+      "mesh": 1,
+      "name": "smallTeaPlate_v01_initialShadingGroup_0"
     }
   ],
   "samplers": [
@@ -191,6 +371,10 @@
     {
       "sampler": 0,
       "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
     }
   ]
 }
