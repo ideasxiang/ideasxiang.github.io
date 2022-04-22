@@ -3,54 +3,54 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 11694,
+      "count": 10438,
       "max": [
-        11.892386436462402,
-        0.4937896728515625,
-        17.496257781982422
+        16.908905029296875,
+        -0.7658920288085938,
+        9.247163772583008
       ],
       "min": [
-        -14.593596458435059,
-        -15.901927947998047,
-        -13.846839904785156
+        -20.257041931152344,
+        -15.628654479980469,
+        -17.694597244262695
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 140328,
+      "byteOffset": 125256,
       "componentType": 5126,
-      "count": 11694,
+      "count": 10438,
       "max": [
-        0.9998894333839417,
-        0.9999998807907104,
-        0.9994438290596008
+        0.998222827911377,
+        1.0,
+        0.9997274875640869
       ],
       "min": [
-        -0.9987468719482422,
-        -0.9999512434005737,
-        -0.9999900460243225
+        -0.9993469715118408,
+        -0.9995387196540833,
+        -0.9999340772628784
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 11694,
+      "count": 10438,
       "max": [
-        0.9997504353523254,
-        0.9997557401657104
+        0.9997469782829285,
+        0.9968260526657104
       ],
       "min": [
         0.000244140625,
-        0.00026651157531887293
+        0.0002601934829726815
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 29862,
+      "count": 30000,
       "type": "SCALAR"
     }
   ],
@@ -58,8 +58,8 @@
     "extras": {
       "author": "LifeUp SG (https://sketchfab.com/lifeup)",
       "license": "COPYRIGHT TO LifeUp SG",
-      "source": "https://sketchfab.com/3d-models/mentaiko-prawn-twice-baked-brotherbird-8e2f5d1530f2427194551c37da842183",
-      "title": "Mentaiko Prawn Twice-Baked Brotherbird"
+      "source": "https://sketchfab.com/3d-models/rocher-croissant-brotherbird-9190dc31980b425584fc2db12dafe460",
+      "title": "Rocher Croissant Brotherbird"
     },
     "generator": "Sketchfab-12.97.0",
     "version": "2.0"
@@ -67,22 +67,22 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 119448,
+      "byteLength": 120000,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 93552,
-      "byteOffset": 119448,
+      "byteLength": 83504,
+      "byteOffset": 120000,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 280656,
-      "byteOffset": 213000,
+      "byteLength": 250512,
+      "byteOffset": 203504,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -90,7 +90,7 @@
   ],
   "buffers": [
     {
-      "byteLength": 493656,
+      "byteLength": 454016,
       "uri": "scene.bin"
     }
   ],
@@ -99,7 +99,7 @@
   ],
   "images": [
     {
-      "uri": "textures/mentaiko_u1_v1_baseColor.png"
+      "uri": "textures/rocher_u1_v1_baseColor.png"
     }
   ],
   "materials": [
@@ -108,7 +108,7 @@
       "extensions": {
         "KHR_materials_unlit": {}
       },
-      "name": "mentaiko_u1_v1",
+      "name": "rocher_u1_v1",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
@@ -140,17 +140,17 @@
         1
       ],
       "matrix": [
-        2.511896807049759e-18,
-        -8.97106002517771e-19,
-        0.0032321650069206953,
+        1.0,
         0.0,
-        -2.4304962977228946e-07,
-        -0.0032321650069206953,
-        -1.0765272030213253e-18,
         0.0,
-        0.0032321650069206953,
-        -2.4304962977228946e-07,
-        -2.332529574405225e-18,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
         0.0,
         0.0,
         0.0,
@@ -163,7 +163,7 @@
       "children": [
         2
       ],
-      "name": "mentaiko.obj.cleaner.materialmerger.gles"
+      "name": "rocher.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
