@@ -25,7 +25,7 @@ var models = [
   },
   {
     url: "./assets/dragonite/scene.gltf",
-    scale: "4 4 4",
+    scale: "1 1 1",
     rotation: "0 180 0",
     info: "Rocher Croissant",
   },
